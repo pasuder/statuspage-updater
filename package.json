@@ -1,0 +1,32 @@
+{
+  "name": "statuspage-updater",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statuspage updater built with Probot.",
+  "author": "Paweł Suder <pawel@suder.info>",
+  "license": "ISC",
+  "repository": "https://github.com/pasuder/statuspage-updater.git",
+  "homepage": "https://github.com/pasuder/statuspage-updater",
+  "bugs": "https://github.com/pasuder/statuspage-updater/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "main": "main.js",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "probot": "^10.9.3"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "nock": "^13.0.4",
+    "smee-client": "^1.1.0"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  }
+}
